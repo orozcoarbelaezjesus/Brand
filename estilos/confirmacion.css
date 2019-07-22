@@ -1,0 +1,24 @@
+.estilo{
+  background-color: #393737;
+}
+
+#estilo a img{
+  height: 200px;
+  width: 200px;
+  border:0;
+  cursor:pointer;
+}
+
+#estilo{
+  align-items: center;
+  text-align: center;
+  margin-top:140px;
+}
+
+#estilo h4{
+  color:white;
+}
+
+#estilo p{
+  color:white;
+}

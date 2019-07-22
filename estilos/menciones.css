@@ -1,0 +1,31 @@
+#menciones{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding:20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#menciones .content{
+  width: 150px;
+  text-align: center;
+  padding: 5px;
+  margin: 20px;
+}
+
+#menciones .content img{
+  border: 0;
+  height: 150px;
+  width: 98%;
+}
+
+#menciones .content h1{
+  font-size:15px;
+  margin:5px;
+}
+
+#menciones .content p{
+  font-size:14px;
+  margin:10px;
+}
