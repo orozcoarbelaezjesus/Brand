@@ -1,0 +1,83 @@
+#formulario{
+  height: auto;
+  padding: 20px;
+  display:flex;
+  justify-content: center;
+  height: auto;
+}
+
+.contenedor_formulario{
+  padding:5px;
+  display:block;
+  margin-bottom:60px;
+}
+
+.producto_formulario{
+  border: 1px solid black;
+  border-radius: 2px;
+  box-shadow: 0 0 5px #e6e5e9;
+  margin:auto;
+  width:200px;
+  height:300px;
+  margin-top:5px;
+}
+
+.producto_formulario img{
+  height: auto;
+  width: 98%;
+}
+
+.producto_formulario p{
+  color:black;
+  font-size:14px;
+  padding:10px;
+}
+
+.formulario{
+  border: 1px solid black;
+  margin:5px;
+  border: 1px solid black;
+  border-radius: 2px;
+  box-shadow: 0 0 5px #e6e5e9;
+  width:300px;
+  height: 360px;
+}
+
+.formulario label{
+  margin-top:10px;
+  margin-left:10px;
+  font-size:20px;
+  float:left;
+}
+
+.formulario input{
+  width:90%;
+  margin:10px;
+  border-radius:2px;
+  height:40px;
+  box-shadow:var(--box-shadow);
+  font-size:14px;
+  text-align:left;
+  padding:10px;
+}
+
+.form_button{
+  text-decoration: none;
+  display:flex;
+  width:90%;
+  height:30px;
+  font-size:16px;
+  margin:10px;
+  padding:5px;
+  background-color:var(--green-color);
+  color:var(--white-color);
+  border-radius: 2px;
+  box-shadow:0;
+  cursor:pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario a:hover{
+  background-color:var(--hover-green-color);
+}

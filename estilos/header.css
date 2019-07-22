@@ -1,0 +1,32 @@
+#header
+{
+  background-color:var(--green-color);
+  display:flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom:15px;
+}
+
+#header img{
+  height: auto;
+  width: 100px;
+}
+
+#header ul a{
+  color:var(--black-color);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#header ul a:hover{
+  color:var(--white-color);
+}
+
+#header nav ul{
+  display:flex;
+  list-style:none;
+}
+
+#header nav li{
+  padding: 10px;
+}
