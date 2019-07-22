@@ -1,0 +1,40 @@
+.container{
+  max-width: 900px;
+  margin:auto;
+}
+
+.row{
+  display: flex;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.col-3{
+  width: 24.999999999%;
+}
+
+.col-3 img{
+  width: 90%;
+  padding:10px;
+}
+
+.col-8{
+  width: 66.666666664%;
+  margin-left:10px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+#col-8{
+    width: 66.666666664%;
+    margin-right:10px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.col-8 img{
+  width: 90%;
+  padding:10px;
+}
